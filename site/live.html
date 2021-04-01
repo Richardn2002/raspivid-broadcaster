@@ -10,7 +10,7 @@
         var canvas = document.createElement("canvas");
         document.body.appendChild(canvas);
         var wsavc = new WSAvcPlayer(canvas, "webgl");
-        wsavc.connect("ws://" + document.location.host + ":8080");
+        wsavc.connect("ws://" + document.location.hostname + ":8080");
     </script>
 </body>
 </html>
