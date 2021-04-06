@@ -21,7 +21,7 @@ An IDR frame specifies that no frame after the IDR frame can reference any frame
 git clone https://github.com/Richardn2002/raspivid-broadcaster.git
 cd raspivid-broadcaster
 npm install
-node ws+http-server.js  # Then simply browse to http://<address-of-your-pi>:2050
+node ws+http-server.js  # Then simply browse to http://<address-of-your-pi>:2050/live.html
 ```
 
 # Usage
